@@ -1,0 +1,30 @@
+{
+  "name": "timestamp-reader",
+  "version": "1.0.0",
+  "description": "Read timestamps of video using OCR (tesseract) and ffmpeg",
+  "main": "lib/timestampReader.js",
+  "scripts": {
+    "test": "grunt vows"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piercus/timestamp-reader.git"
+  },
+  "author": "Pierre Colle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/piercus/timestamp-reader/issues"
+  },
+  "homepage": "https://github.com/piercus/timestamp-reader#readme",
+  "dependencies": {
+    "file": "^0.2.2",
+    "fluent-ffmpeg": "^2.1.0",
+    "gm": "^1.23.0",
+    "grunt": "^1.0.1",
+    "node-tesseract": "^0.2.7"
+  },
+  "devDependencies": {
+    "grunt-vows": "^0.4.2",
+    "vows": "^0.8.1"
+  }
+}
